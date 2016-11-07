@@ -637,7 +637,7 @@ h2.month {
 .prompt .shell{
 	position: absolute;
 	top: 30px;
-    left: 25px;
+    left: 21px;
 }
 .prompt .cursor {
 	animation: blinker 1s linear infinite;
