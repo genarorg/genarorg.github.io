@@ -622,6 +622,36 @@ h2.month {
   margin-left: 2px;
 }
 
+.prompt{
+	width: 80px;
+	height: 80px;
+	background-color: #19213d;
+	font-family: "Courier New", Courier, monospace;
+	border-radius: 50%;
+	color: white;
+	font-size: 1.5em;
+	margin: 0 auto 15px auto;
+    position: relative;
+
+}
+.prompt .shell{
+	position: absolute;
+	top: 30px;
+    left: 25px;
+}
+.prompt .cursor {
+	animation: blinker 1s linear infinite;
+	position: absolute;
+    top: 23px;
+    left: 38px;
+}
+
+@keyframes blinker {  
+  45% { opacity: 0; }
+  50% { opacity: 0; }
+  51% { opacity: 1; }
+}
+
 /* Media Queries */
 @media screen and (max-width: 540px) {
 	#wrapper { padding:20px 20px 20px 20px;}
